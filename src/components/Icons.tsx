@@ -7,7 +7,7 @@ type IconsProps = PropsWithChildren<{
     name:string;
 }>
 
-const Icons=({name}) =>{
+const Icons=({name}:IconsProps) =>{
     Switch(name){
         case 'circle':
           return <Icon name ="circle-thin" size={38} 
